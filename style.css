@@ -1,0 +1,47 @@
+body {background-color:pink;}
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #3721cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+	hr {
+		width: 50%;
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+	div {
+		border-width: 15px;
+	}
+	header {
+		
+		border: 2px solid black
+	}
+	</body> 
